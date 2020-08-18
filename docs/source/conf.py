@@ -61,6 +61,13 @@ exclude_patterns = []
 # Generate the API documentation when building
 autosummary_generate = True
 autodoc_member_order = 'bysource'
+autodoc_default_flags = [
+    # Make sure that any autodoc declarations show the right members
+    "members",
+    "inherited-members",
+    "private-members",
+    "show-inheritance",
+]
 
 # -- Options for HTML output -------------------------------------------------
 

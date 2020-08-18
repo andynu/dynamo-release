@@ -13,4 +13,5 @@ from .velocity import (
     fit_alpha_degradation,
     velocity,
     ss_estimation,
+    fit_f
 )
