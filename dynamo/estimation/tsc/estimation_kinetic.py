@@ -246,9 +246,10 @@ class Estimation_Degradation(kinetic_estimation):
         return dictionary
 
 class Estimation_DeterministicDeg(Estimation_Degradation):
-    '''An estimation class for degradation (with splicing) experiments.
+    """An estimation class for degradation (with splicing) experiments.
         Order of species: <unspliced>, <spliced>
-    '''
+    """
+
     def __init__(self, beta=None, gamma=None, x0=None):
         self.kin_param_keys = np.array(['alpha', 'beta', 'gamma'])
         if beta is not None and gamma is not None and x0 is not None:
@@ -273,9 +274,13 @@ class Estimation_DeterministicDeg(Estimation_Degradation):
         return popt, cost
 
 class Estimation_DeterministicDegNosp(Estimation_Degradation):
+    """An estimation class for degradation (without splicing) experiments.
+    """
+
     def __init__(self, gamma=None, x0=None):
-        '''An estimation class for degradation (without splicing) experiments.
-        '''
+        """An estimation class for degradation (without splicing) experiments.
+        """
+
         if gamma is not None and x0 is not None:
             self._initialize(gamma, x0)
 
@@ -332,10 +337,12 @@ class Estimation_MomentDeg(Estimation_DeterministicDeg):
         return ret
 
 class Estimation_MomentDegNosp(Estimation_Degradation):
+    """An estimation class for degradation (without splicing) experiments.
+
+    Order of species: <r>, <rr>
+    """
+
     def __init__(self, gamma=None, x0=None):
-        '''An estimation class for degradation (without splicing) experiments.
-            Order of species: <r>, <rr>
-        '''
         if gamma is not None and x0 is not None:
             self._initialize(gamma, x0)
 

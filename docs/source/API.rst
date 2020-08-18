@@ -104,38 +104,55 @@ Estimation (est)
 
 **Time-resolved metabolic labeling based scRNA-seq (est.tsc)**
 
-.. autosummary::
-   :toctree: .
-      :maxdepth: 2
-      :toctree: .
+.. autoclass:: dynamo.est.tsc.kinetic_estimation
 
-    est.tsc.kinetic_estimation
-    est.tsc.Estimation_MomentDegNosp
-    est.tsc.Estimation_MomentKin
-    est.tsc.Mixture_KinDeg_NoSwitching
-    est.tst.Lambda_NoSwitching
-    est.tsc.Estimation_MomentKinNosp
-    est.tsc.Estimation_DeterministicKinNosp
-    est.tsc.Estimation_DeterministicKin
-    est.tsc.Mixture_KinDeg_NoSwitching
+.. autoclass:: dynamo.est.tsc.Estimation_MomentDegNosp
 
-    .. est.tsc.Estimation_MomentDeg
-    .. est.tsc.Estimation_MomentDegNosp
-    .. est.tsc.Estimation_MomentKin
-    .. est.tsc.Estimation_DeterministicDeg
+.. autoclass:: dynamo.est.tsc.Estimation_MomentKin
 
-    .. est.tsc.Estimation_DeterministicDegNosp
-    ..
-    .. est.tsc.Estimation_DeterministicKin
-    .. est.tsc.GoodnessOfFit
+.. autoclass:: dynamo.est.tsc.Mixture_KinDeg_NoSwitching
 
-    .. est.tsc.LinearODE
-    .. est.tsc.Moments
-    .. est.tsc.Moments_Nosplicing
-    .. est.tsc.Moments_NoSwitching
-    .. est.tsc.Moments_NoSwitchingNoSplicing
-    .. est.tsc.Deterministic
-    .. est.tsc.Deterministic_NoSplicing
+.. autoclass:: dynamo.est.tst.Lambda_NoSwitching
+
+.. autoclass:: dynamo.est.tsc.Estimation_MomentKinNosp
+
+.. autoclass:: dynamo.est.tsc.Estimation_DeterministicKinNosp
+
+.. autoclass:: dynamo.est.tsc.Estimation_DeterministicKin
+
+.. autoclass:: dynamo.est.tsc.Mixture_KinDeg_NoSwitching
+
+
+
+.. autoclass:: dynamo.est.tsc.Estimation_MomentDeg
+
+.. autoclass:: dynamo.est.tsc.Estimation_MomentDegNosp
+
+.. autoclass:: dynamo.est.tsc.Estimation_MomentKin
+
+.. autoclass:: dynamo.est.tsc.Estimation_DeterministicDeg
+
+
+
+.. autoclass:: dynamo.est.tsc.Estimation_DeterministicDegNosp
+
+.. autoclass:: dynamo.est.tsc.Estimation_DeterministicKin
+
+.. autoclass:: dynamo.est.tsc.GoodnessOfFit
+
+.. autoclass:: dynamo.est.tsc.LinearODE
+
+.. autoclass:: dynamo.est.tsc.Moments
+
+.. autoclass:: dynamo.est.tsc.Moments_Nosplicing
+
+.. autoclass:: dynamo.est.tsc.Moments_NoSwitching
+
+.. autoclass:: dynamo.est.tsc.Moments_NoSwitchingNoSplicing
+
+.. autoclass:: dynamo.est.tsc.Deterministic
+
+.. autoclass:: dynamo.est.tsc.Deterministic_NoSplicing
 
 Vector field (vf)
 ~~~~~~~~~~~~~~~~~

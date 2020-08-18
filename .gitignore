@@ -47,3 +47,4 @@ test.py
 node_modules/
 package-lock.json
 public/*.js
+docs/source/_autosummary
